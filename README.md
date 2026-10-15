@@ -2,11 +2,6 @@
   <img src="./assets/banner.svg" width="100%" alt="Hassanat Anidu — Flutter developer · mobile, desktop & web"/>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Hassanat-t&label=visitors&color=ff4f9a&style=flat-square" alt="profile visitors"/>
-  <img src="https://img.shields.io/github/followers/Hassanat-t?label=followers&style=flat-square&color=ff8fc7&labelColor=2b0b1e" alt="followers"/>
-</p>
-
 <br/>
 
 <img src="./assets/now-shipping.svg" width="100%" alt="Now shipping: fix(CYBERTRON-42) desktop DM notifications open the right conversation (merged); fix(CYBERTRON-44) friendly no-account message on magic-link login (merged); feat(CYBERTRON-608) full naira price and currency note on the pricing page (in review)"/>
@@ -20,8 +15,8 @@
   <a href="https://zedu.chat"><img src="./assets/card-zedu.svg" width="49%" alt="Zedu desktop and web — HNG Internship, Team Cybertron"/></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Hassanat-t/final-year-hostel-management-system"><img src="./assets/card-hostel.svg" width="49%" alt="Hostel Management — Flutter final-year project"/></a>
-  <a href="https://github.com/Hassanat-t/learning"><img src="./assets/card-learning.svg" width="49%" alt="Learning in public — Dart drills and experiments"/></a>
+  <a href="https://github.com/Hassanat-t/Hostel-Management-system"><img src="./assets/card-hostel.svg" width="49%" alt="Hostel Management — Flutter final-year project"/></a>
+  <img src="./assets/card-learning.svg" width="49%" alt="Always learning — clean architecture, testing and UI/UX"/>
 </p>
 
 <br/>
