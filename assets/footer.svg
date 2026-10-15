@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="120" viewBox="0 0 1280 120" role="img" aria-label="Thanks for stopping by">
+<defs><linearGradient id="w" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#B5175F"/><stop offset=".5" stop-color="#FF4F9A"/><stop offset="1" stop-color="#FFC2DD"/></linearGradient>
+<style>.sans{font-family:"Segoe UI",Inter,-apple-system,Helvetica,Arial,sans-serif}.wv{animation:mv 8s ease-in-out infinite alternate}@keyframes mv{from{transform:translateX(0)}to{transform:translateX(-60px)}}</style></defs>
+<g class="wv"><path d="M0 70 C 200 30, 380 110, 640 66 S 1080 30, 1340 72 V120 H0Z" fill="url(#w)" opacity=".35"/>
+<path d="M0 86 C 220 56, 420 120, 660 84 S 1100 54, 1340 90 V120 H0Z" fill="url(#w)" opacity=".8"/></g>
+<text x="640" y="40" text-anchor="middle" class="sans" font-size="16" fill="#FF8FC7" letter-spacing="3">THANKS FOR STOPPING BY  ✿</text>
+</svg>

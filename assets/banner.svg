@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Hassanat Anidu, Flutter developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14050E"/>
+      <stop offset="0.55" stop-color="#22091A"/>
+      <stop offset="1" stop-color="#3A0D27"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.42" r="0.55">
+      <stop offset="0" stop-color="#FF4F9A" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#FF4F9A" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#FF4F9A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.08" cy="0.95" r="0.45">
+      <stop offset="0" stop-color="#FF8FC7" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FF8FC7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFE6F1"/>
+      <stop offset="0.45" stop-color="#FFC2DD"/>
+      <stop offset="1" stop-color="#FF4F9A"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FF8FC7" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1280" height="420" rx="28"/></clipPath>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+      .sans{font-family:"Segoe UI",Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+      .cursor{animation:blink 1.1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .tw1{animation:tw 3.2s ease-in-out infinite}
+      .tw2{animation:tw 4.1s ease-in-out .8s infinite}
+      .tw3{animation:tw 3.7s ease-in-out 1.6s infinite}
+      @keyframes tw{0%,100%{opacity:.15;transform:scale(.7)}50%{opacity:1;transform:scale(1)}}
+      .float{animation:fl 6s ease-in-out infinite}
+      @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="420" fill="url(#bg)"/>
+    <rect width="1280" height="420" fill="url(#grid)"/>
+    <rect width="1280" height="420" fill="url(#glow)"/>
+    <rect width="1280" height="420" fill="url(#glow2)"/>
+    <rect x="0.5" y="0.5" width="1279" height="419" rx="28" fill="none" stroke="#FF4F9A" stroke-opacity="0.35"/>
+  </g>
+
+  <!-- left: intro -->
+  <g class="sans">
+    <text x="72" y="104" class="mono" font-size="16" letter-spacing="3" fill="#FF8FC7">// HELLO WORLD, I'M</text>
+    <text x="68" y="186" font-size="76" font-weight="800" fill="url(#name)" letter-spacing="-1.5">Hassanat</text>
+    <text x="68" y="262" font-size="76" font-weight="800" fill="url(#name)" letter-spacing="-1.5">Anidu</text>
+    <text x="72" y="306" font-size="21" fill="#E9BDD3">Flutter developer · mobile, desktop &amp; web</text>
+
+    <!-- chips -->
+    <g font-size="14" font-weight="600">
+      <rect x="72" y="332" width="92" height="32" rx="16" fill="#FF4F9A"/>
+      <text x="118" y="353" text-anchor="middle" fill="#1A0712">Flutter</text>
+      <rect x="174" y="332" width="74" height="32" rx="16" fill="none" stroke="#FF8FC7" stroke-opacity="0.7"/>
+      <text x="211" y="353" text-anchor="middle" fill="#FFC2DD">Dart</text>
+      <rect x="258" y="332" width="90" height="32" rx="16" fill="none" stroke="#FF8FC7" stroke-opacity="0.7"/>
+      <text x="303" y="353" text-anchor="middle" fill="#FFC2DD">Next.js</text>
+      <rect x="358" y="332" width="208" height="32" rx="16" fill="#2B0B1E" stroke="#FF4F9A" stroke-opacity="0.5"/>
+      <text x="462" y="353" text-anchor="middle" fill="#FFC2DD">HNG · Zedu Cybertron</text>
+    </g>
+  </g>
+
+  <!-- right: code window -->
+  <g class="float">
+    <rect x="690" y="78" width="520" height="276" rx="18" fill="#12040C" fill-opacity="0.92" stroke="#FF4F9A" stroke-opacity="0.45"/>
+    <rect x="690" y="78" width="520" height="44" rx="18" fill="#2B0B1E"/>
+    <rect x="690" y="104" width="520" height="18" fill="#2B0B1E"/>
+    <circle cx="716" cy="100" r="6" fill="#FF5F8F"/>
+    <circle cx="738" cy="100" r="6" fill="#FFB3D1"/>
+    <circle cx="760" cy="100" r="6" fill="#FFE6F1"/>
+    <text x="950" y="105" text-anchor="middle" class="mono" font-size="14" fill="#C79AB2">pink_oven.dart</text>
+
+    <g class="mono" font-size="16">
+      <text x="716" y="160"><tspan fill="#FF4F9A">void</tspan><tspan fill="#FFE6F1"> main() {</tspan></text>
+      <text x="740" y="188"><tspan fill="#FF4F9A">final</tspan><tspan fill="#FFE6F1"> me = </tspan><tspan fill="#FFB3D1">Developer</tspan><tspan fill="#FFE6F1">(</tspan></text>
+      <text x="764" y="216"><tspan fill="#C79AB2">name: </tspan><tspan fill="#9FE8C7">'Hassanat'</tspan><tspan fill="#FFE6F1">,</tspan></text>
+      <text x="764" y="244"><tspan fill="#C79AB2">loves: </tspan><tspan fill="#FFE6F1">[</tspan><tspan fill="#9FE8C7">'Flutter'</tspan><tspan fill="#FFE6F1">, </tspan><tspan fill="#9FE8C7">'pink UIs'</tspan><tspan fill="#FFE6F1">],</tspan></text>
+      <text x="740" y="272" fill="#FFE6F1">);</text>
+      <text x="740" y="300"><tspan fill="#FFB3D1">runApp</tspan><tspan fill="#FFE6F1">(me.build()); </tspan><tspan fill="#7A4A62">// served warm</tspan></text>
+      <text x="716" y="328" fill="#FFE6F1">}</text>
+      <rect x="730" y="314" width="10" height="18" fill="#FF4F9A" class="cursor"/>
+    </g>
+  </g>
+
+  <!-- sparkles -->
+  <g fill="#FFC2DD">
+    <path class="tw1" style="transform-origin:640px 70px" d="M640 56l3.5 10.5L654 70l-10.5 3.5L640 84l-3.5-10.5L626 70l10.5-3.5z"/>
+    <path class="tw2" style="transform-origin:1232px 380px" d="M1232 370l2.5 7.5L1242 380l-7.5 2.5L1232 390l-2.5-7.5L1222 380l7.5-2.5z"/>
+    <path class="tw3" style="transform-origin:612px 330px" d="M612 322l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/>
+  </g>
+</svg>
