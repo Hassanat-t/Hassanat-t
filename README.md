@@ -16,7 +16,7 @@
 </p>
 <p align="center">
   <a href="https://github.com/Hassanat-t/Hostel-Management-system"><img src="./assets/card-hostel.svg" width="49%" alt="Hostel Management — Flutter final-year project"/></a>
-  <img src="./assets/card-learning.svg" width="49%" alt="Always learning — clean architecture, testing and UI/UX"/>
+  <a href="https://to-do-list-red-one-50.vercel.app"><img src="./assets/card-todo.svg" width="49%" alt="To-do List — minimal dark-glass task app built with React, TypeScript, Zustand and Vite"/></a>
 </p>
 
 <br/>
